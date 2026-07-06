@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "/WnNg4RA9U0=",
+  "dgSpecHash": "WrtM5qDUdmw=",
   "success": true,
-  "projectFilePath": "D:\\BAI TAP LON MON AN TOAN BAO MAT THONG TIN\\NHOM-7_BTL-ATBMTT\\SecurityBenchmark.csproj",
+  "projectFilePath": "D:\\An toàn bảo mật thông tin\\BTTL_Son\\NHOM-7_BTL-ATBMTT\\SecurityBenchmark.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ADMIN\\.nuget\\packages\\bcrypt.net-next\\4.2.0\\bcrypt.net-next.4.2.0.nupkg.sha512",
     "C:\\Users\\ADMIN\\.nuget\\packages\\csvhelper\\33.1.0\\csvhelper.33.1.0.nupkg.sha512",

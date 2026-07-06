@@ -1,5 +1,3 @@
-# NHOM-7_BTL-ATBMTT
-
 # Modern Password Authentication System
 
 Ứng dụng FastAPI demo hệ thống đăng ký, đăng nhập và đổi mật khẩu an toàn với Argon2id. Hỗ trợ log sự kiện và khoá tài khoản khi đăng nhập sai nhiều lần.
@@ -37,4 +35,3 @@ File log được ghi vào `auth.log` với định dạng:
 ```
 
 Không log mật khẩu, password hash hay secret key.
->>>>>>> c66c635 (2nd commit)
