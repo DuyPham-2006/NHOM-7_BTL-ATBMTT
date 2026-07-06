@@ -1,0 +1,98 @@
+[
+  {
+    "Algorithm": "SHA-256",
+    "Configuration": "Default",
+    "Iterations": 100,
+    "AverageHashTime": 0.008317999999999987,
+    "AverageVerifyTime": 0.0019489999999999991,
+    "MinHashTime": 0.0007,
+    "MaxHashTime": 0.7162,
+    "MinVerifyTime": 0.0007,
+    "MaxVerifyTime": 0.0167,
+    "Note": "Kh\u00F4ng d\u00F9ng Salt"
+  },
+  {
+    "Algorithm": "BCrypt",
+    "Configuration": "Cost=8",
+    "Iterations": 100,
+    "AverageHashTime": 13.216595,
+    "AverageVerifyTime": 13.183795999999997,
+    "MinHashTime": 12.5633,
+    "MaxHashTime": 15.8163,
+    "MinVerifyTime": 12.558,
+    "MaxVerifyTime": 14.8035,
+    "Note": "WorkFactor=8"
+  },
+  {
+    "Algorithm": "BCrypt",
+    "Configuration": "Cost=10",
+    "Iterations": 100,
+    "AverageHashTime": 53.65567299999998,
+    "AverageVerifyTime": 53.96045300000001,
+    "MinHashTime": 50.2239,
+    "MaxHashTime": 72.2872,
+    "MinVerifyTime": 50.0969,
+    "MaxVerifyTime": 77.4124,
+    "Note": "WorkFactor=10"
+  },
+  {
+    "Algorithm": "BCrypt",
+    "Configuration": "Cost=12",
+    "Iterations": 100,
+    "AverageHashTime": 284.1617859999999,
+    "AverageVerifyTime": 284.59096900000003,
+    "MinHashTime": 268.0557,
+    "MaxHashTime": 329.057,
+    "MinVerifyTime": 268.8134,
+    "MaxVerifyTime": 338.1668,
+    "Note": "WorkFactor=12"
+  },
+  {
+    "Algorithm": "BCrypt",
+    "Configuration": "Cost=14",
+    "Iterations": 100,
+    "AverageHashTime": 1685.5336920000004,
+    "AverageVerifyTime": 1675.2398819999999,
+    "MinHashTime": 1054.5286,
+    "MaxHashTime": 3581.3283,
+    "MinVerifyTime": 1069.7958,
+    "MaxVerifyTime": 3505.2071,
+    "Note": "WorkFactor=14"
+  },
+  {
+    "Algorithm": "Argon2id",
+    "Configuration": "32 MB",
+    "Iterations": 100,
+    "AverageHashTime": 289.91653,
+    "AverageVerifyTime": 292.4700969999999,
+    "MinHashTime": 199.4532,
+    "MaxHashTime": 397.5263,
+    "MinVerifyTime": 213.7951,
+    "MaxVerifyTime": 418.2549,
+    "Note": "Memory=32MB"
+  },
+  {
+    "Algorithm": "Argon2id",
+    "Configuration": "64 MB",
+    "Iterations": 100,
+    "AverageHashTime": 564.8207090000001,
+    "AverageVerifyTime": 567.9234099999999,
+    "MinHashTime": 437.6205,
+    "MaxHashTime": 847.8189,
+    "MinVerifyTime": 451.859,
+    "MaxVerifyTime": 725.1486,
+    "Note": "Memory=64MB"
+  },
+  {
+    "Algorithm": "Argon2id",
+    "Configuration": "128 MB",
+    "Iterations": 100,
+    "AverageHashTime": 1164.32923,
+    "AverageVerifyTime": 1157.650601,
+    "MinHashTime": 928.7361,
+    "MaxHashTime": 1551.2829,
+    "MinVerifyTime": 818.1466,
+    "MaxVerifyTime": 1475.2365,
+    "Note": "Memory=128MB"
+  }
+]

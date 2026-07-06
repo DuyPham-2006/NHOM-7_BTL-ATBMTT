@@ -1,0 +1,19 @@
+-- Schema for Modern Password Authentication System
+
+CREATE TABLE users (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  username VARCHAR(150) NOT NULL UNIQUE,
+  password_hash VARCHAR(300) NOT NULL,
+  failed_attempts INTEGER NOT NULL DEFAULT 0,
+  locked_until DATETIME,
+  created_at DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP
+);
+
+CREATE TABLE login_logs (
+  id INTEGER PRIMARY KEY AUTOINCREMENT,
+  user_id INTEGER NOT NULL,
+  timestamp DATETIME NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  status VARCHAR(20) NOT NULL,
+  ip_address VARCHAR(64) NOT NULL DEFAULT '',
+  FOREIGN KEY(user_id) REFERENCES users(id)
+);
