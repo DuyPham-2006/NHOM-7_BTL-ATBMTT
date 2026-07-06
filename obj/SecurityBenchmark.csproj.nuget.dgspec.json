@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\BTTL_Son\\NHOM-7_BTL-ATBMTT\\SecurityBenchmark.csproj": {}
+    "D:\\BAI TAP LON MON AN TOAN BAO MAT THONG TIN\\NHOM-7_BTL-ATBMTT\\SecurityBenchmark.csproj": {}
   },
   "projects": {
-    "D:\\BTTL_Son\\NHOM-7_BTL-ATBMTT\\SecurityBenchmark.csproj": {
+    "D:\\BAI TAP LON MON AN TOAN BAO MAT THONG TIN\\NHOM-7_BTL-ATBMTT\\SecurityBenchmark.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\BTTL_Son\\NHOM-7_BTL-ATBMTT\\SecurityBenchmark.csproj",
+        "projectUniqueName": "D:\\BAI TAP LON MON AN TOAN BAO MAT THONG TIN\\NHOM-7_BTL-ATBMTT\\SecurityBenchmark.csproj",
         "projectName": "SecurityBenchmark",
-        "projectPath": "D:\\BTTL_Son\\NHOM-7_BTL-ATBMTT\\SecurityBenchmark.csproj",
+        "projectPath": "D:\\BAI TAP LON MON AN TOAN BAO MAT THONG TIN\\NHOM-7_BTL-ATBMTT\\SecurityBenchmark.csproj",
         "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\BTTL_Son\\NHOM-7_BTL-ATBMTT\\obj\\",
+        "outputPath": "D:\\BAI TAP LON MON AN TOAN BAO MAT THONG TIN\\NHOM-7_BTL-ATBMTT\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config"
